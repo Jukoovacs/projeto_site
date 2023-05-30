@@ -1,0 +1,149 @@
+<!Doctype html>
+<html>
+
+<head>
+    <title>Cond. Portal da Penha</title>
+    <style>
+        .body {
+            background-color: white;
+        }
+
+        .menu {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #04AA6D;
+        }
+
+        .menu-item {
+            float: left;
+            border-right: 1px solid #bbb;
+        }
+
+        .title {
+            text-align: center;
+            color: white;
+            float: left;
+            font-size: 15px;
+            margin-left: 20px;
+            font-style: italic;
+        }
+
+        .menu-item a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .menu-item a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #04AA6D;
+        }
+
+        .tabela {
+            width:100%;
+            text-align: center;
+            border-left: 1px solid #04AA6D;
+            border-right: 1px solid #04AA6D;
+            border-bottom: 1px solid #04AA6D;
+        }
+
+        .tabela td {
+            width: 50%;
+            height: 150px;
+            border-bottom: 1px dashed #04AA6D;
+        }
+        .imagens {
+            width:100px;
+            height:100px;
+            border-radius: 50%;
+        }
+
+        footer {
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            color: black;
+            text-align: center;
+            position: relative;
+        }
+
+        .email {
+            text-decoration: none;
+            color: black;
+        }
+
+        .redes-sociais {
+            float: right;
+        }
+
+        .fa-facebook {
+            color: blue;
+            padding: 20px;
+            width: 50px;
+        }
+
+        .fa-instagram {
+            color: rgb(237, 19, 146);
+            padding: 20px;
+            width: 80px;
+        }
+
+        .autor {
+            float: left;
+        }
+    </style>
+</head>
+
+<body class="body">
+    <ul class="menu">
+        <li class="active menu-item"><a href="index.html"><i class="fa fa-home"></i></a></li>
+        <li> <p class="title"><b>Condomínio Edifício Portal da Penha</b></p> </li>
+        <li class="menu-item" style="float:right"><a href="cadastre-se.html">Cadastre-se</a></li>
+        <li class="menu-item" style="float:right"><a href="login.html">Login</a></li>
+    </ul>
+    <table class="tabela">
+        <tr>
+            <td><p>Aqui você pode consultar as datas disponíveis para reserva do salão e adcionar visitantes autorizados para sua festa.<br>
+                <a href= "reservas.html">Reservar!</a></p></td>
+            <td><img class= "imagens" src = "salão_festas.jpg"></td>
+        </tr>
+        <tr>
+            <td><img class= "imagens" src = "quadro_avisos.jpeg"></td>
+            <td><p>Aqui você pode consultar as todos os avisos importantes referentes ao condomínio.<br>
+                <a href= "avisos.html">Consulte aqui!</a></p></td>
+        </tr>
+        <tr>
+            <td><p>Aqui você pode participar das enquetes e votações em aberto do condomínio.<br>
+                <a href= "enquete.html">Partcipe!</a></p></td>
+            <td><img class= "imagens" src = "enquete.jpg"></td>  
+        </tr>
+        <tr>
+            <td><img class= "imagens" src = "vendas.jpg"></td>
+            <td><p>Aqui você pode adicionar os seus itens para venda.<br>
+                <a href= "vendas.html">Anuncie aqui</a></p></td>
+        </tr>
+        <tr>
+            <td><p>Aqui você pode visualizar as fotos referentes aos eventos do prédio.<br>
+                <a href= "eventos.html">Clique aqui</a></p></td>
+            <td><img class= "imagens" src = "events.jpg"></td>
+        </tr>
+    </table>
+    <footer>
+        <p class="autor">Julia Kovacs Takamura </p>
+        <div class="redes-sociais">
+            <a><i class="fa fa-facebook"></i></a>
+            <a><i class="fa fa-instagram"></i></a>
+        </div>
+    </footer>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</body>
+
+</html>
