@@ -2,7 +2,9 @@
 <html>
 
 <head>
+    <meta charset="UTF-8"/>
     <title>Cond. Portal da Penha</title>
+    <script src="js/cadastre-se.js"></script>
     <style>
         .menu {
             list-style-type: none;
@@ -125,7 +127,7 @@
         <li class="menu-item" style="float:right"><a href="cadastre-se.html">Cadastre-se</a></li>
         <li class="menu-item" style="float:right"><a href="login.html">Login</a></li>
     </ul>
-    <form action="index.html">
+    <form action="#" onsubmit="verificaSenha();return false">
         <div class="box">
             <label><b>Nome</b></label>
             <input class="input" type="text" placeholder="Digite seu nome" required>
@@ -143,7 +145,8 @@
             <input class="input" type="text" placeholder="Digite seu usuário" required>
 
             <label><b>Senha</b></label>
-            <input class="input" type="password" placeholder="Digite sua senha" required>
+            <input id="senha" class="input" type="password" placeholder="Digite sua senha" required><br>
+            <label>A deve conter no máximo 6 números.</label>
 
             <button class= "login" type="submit">Cadastre-se</button>
         </div>
