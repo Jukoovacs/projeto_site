@@ -14,6 +14,15 @@
 }
 
 body {
-    display: block;
-    margin-top: 8px;
+    display:table; 
+    width: 100%;
+    background-color: white;
+}
+
+body > footer {
+    display: table-row;
+}
+
+footer {
+    min-height: 50px;
 }
