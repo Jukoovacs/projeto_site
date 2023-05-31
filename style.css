@@ -1,0 +1,14 @@
+@import url("styles/avisos.css");
+@import url("styles/cadastre-se.css");
+@import url("styles/enquete.css");
+@import url("styles/eventos.css");
+@import url("styles/index.css");
+@import url("styles/login.css");
+@import url("styles/reservas.css");
+@import url("styles/vendas.css");
+
+:root {
+    --branco: #FFF;
+    --preto: #000;
+    --verde: #04AA6D;
+}
