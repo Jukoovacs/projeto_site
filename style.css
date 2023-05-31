@@ -12,3 +12,8 @@
     --preto: #000;
     --verde: #04AA6D;
 }
+
+body {
+    display: block;
+    margin-top: 8px;
+}

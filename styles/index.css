@@ -65,7 +65,10 @@ footer {
     width: 100%;
     color: black;
     text-align: center;
-    position: relative;
+    position: absolute;
+    content: relative;
+    display: flex;
+    justify-content: space-between;
 }
 
 .email {
